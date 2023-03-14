@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+           /* button hover */
+          
+          .btn-8{
+            display: inline-block;
+            position: relative;
+            background: none;
+            border: none;
+            color: #000;
+            font-size: x-large;
+            cursor: pointer;
+            margin: 20px 30px;
+            background: white;
+            padding-top: 10px;
+          }
+          
+          .btn-8::before, button::after{
+            content:"";
+            width: 0;
+            height: 2px;
+            position: absolute;
+            transition: all 0.2s linear;
+            background: linear-gradient(90deg, rgba(255,145,145,1) 32%, rgba(60,163,250,1) 69%);
+          }
+          
+          span::before, span::after{
+            content:"";
+            width:2px;
+            height:0;
+            position: absolute;
+            transition: all 0.2s linear;
+            background: linear-gradient(90deg, rgba(255,145,145,1) 32%, rgba(60,163,250,1) 69%);
+          }
+          .btn-8:hover::before, .btn-8:hover::after{
+            width: 100%;
+          }
+          .btn-8:hover span::before, .btn-8:hover span::after{
+            height: 100%;
+          }
+        
+       /*----- button 3 -----*/
+.btn-8::after{
+    left: 0;
+    bottom: 0;
+    transition-delay: 0.6s;
+  }
+  .btn-8 span::after{
+    transition-delay: 0.4s;
+    right: 0;
+    bottom: 0
+  }
+  .btn-8::before{
+    right: 0;
+    top: 0;
+    transition-delay: 0.2s;
+  }
+  .btn-8 span::before{
+    transition-delay: 0s;
+    left: 0;
+    top: 0;
+  }
+  
+  .btn-8:hover::after{
+    transition-delay: 0s;
+  }
+  .btn-8:hover span::after{
+    transition-delay: 0.2s;
+  }
+  .btn-8:hover::before{
+    transition-delay: 0.4s;
+  }
+  .btn-8:hover span::before{
+    transition-delay: 0.6s;
+  }
+  
+       
+  .c7 {
+    height: 80px;
+}
+          
+          
