@@ -109,7 +109,7 @@ hr{
     box-shadow: 22px 19px 26px 9px grey;
 } */
 .navbar-brand {
-    margin-right: var(--bs-navbar-brand-margin-end);
+    /* margin-right: var(--bs-navbar-brand-margin-end); */
     text-decoration: none;
     white-space: nowrap;
     width: 33%;
@@ -1219,6 +1219,7 @@ hr{
     background: currentColor;
     /* background: linear-gradient(90deg, rgba(255,145,145,1) 32%, rgba(60,163,250,1) 69%); */
     /* background: #01afec; */
+    background-color: white;
 
 }
 

@@ -1004,7 +1004,7 @@ ul.navbar-nav>li>a:after {
 
 ul.navbar-nav>li>a {
     font-family: "Montserrat", sans-serif;
-    color: #fff !important;
+    /* color: #fff !important; */
     text-rendering: optimizeLegibility;
     font-weight: 700 !important;
     text-transform: uppercase;
@@ -1036,7 +1036,7 @@ ul.navbar-nav>li>a {
 
 .dropdown-submenu>a:after {
     display: block;
-    content: "\f105";
+    /* content: "\f105"; */
     font-family: "Font Awesome 5 Free";
     float: right;
     margin-top: 0;
